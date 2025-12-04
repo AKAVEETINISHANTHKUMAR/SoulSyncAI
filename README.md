@@ -1,4 +1,4 @@
-# 🌿 **UnmuteMind — AI Companion for Emotional Well-Being**
+# 🌿 **SoulSync — AI Companion for Emotional Well-Being**
 
 *A mindful AI chat experience built with Gemini + Node.js + MongoDB + Vanilla JavaScript.*
 
@@ -6,7 +6,7 @@
 
 ## 🚀 **Overview**
 
-**UnmuteMind** is an AI-powered emotional support chat app designed to let users express themselves freely.
+**SoulSync** is an AI-powered emotional support chat app designed to let users express themselves freely.
 It combines a calming UI, minimal design, and an empathetic Gemini AI chatbot to help users reflect, unload stress, and talk openly — anytime.
 
 ✔ **Logged-in users:** Unlimited chats saved
@@ -115,8 +115,8 @@ SoulSyncAI/
 ### **1️⃣ Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/UnmuteMind.git
-cd UnmuteMind/backend
+git clone https://github.com/your-username/SoulSync.git
+cd SoulSync/backend
 ```
 
 ---
@@ -135,7 +135,7 @@ Inside `/backend`:
 
 ```
 PORT=5000
-MONGO_URI=mongodb://127.0.0.1:27017/unmutemind
+MONGO_URI=mongodb://127.0.0.1:27017/SoulSync
 JWT_SECRET=your_jwt_secret
 GEMINI_API_KEY=your_gemini_api_key_here
 ```
@@ -238,7 +238,7 @@ backend/utils/gemini_client.js
 In Mongo Shell:
 
 ```bash
-use unmutemind
+use SoulSync
 db.chats.deleteMany({})
 ```
 
